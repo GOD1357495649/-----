@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.frame {
+  position: absolute;
+  border: dotted 1px black;
+  /* width: 400px;
+  height: 200px; */
+}
+
+.checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2px;
+  width: 100px;
+}
+
+.checkboxes input[type="checkbox"] {
+  flex: 1;
+  display: block;
+}
+
+button {
+  background: white;
+  margin-top: 50px;
+}
